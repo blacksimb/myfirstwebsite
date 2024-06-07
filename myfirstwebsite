@@ -7,31 +7,31 @@
 
     <!-- ul es lista no ordenada-->
     <ul>
-        <li> Elemento 1</li>
-        <li> Elemento 2</li>
-        <li> Elemento 3</li>
-        <li> Elemento 4</li>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
     </ul>
     <ol>
-        <li> Elemento 1</li>
-        <li> Elemento 2</li>
-        <li> Elemento 3</li>
-        <li> Elemento 4</li>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
     </ol>
 
     <form action="/formulario" method="POST">
         <label for="nombre">Nombre</label>
         <input value="Chanchito" type="text" id="nombre" name="nombre" placeholder="Chanchito feliz"/>
         <br>
-        <label for="apellido">apellido</label>
+        <label for="apellido">Apellido</label>
         <input value="Chanchito" type="text" id="apellido" name="apellido" placeholder="Chanchito triste"/>
         <br>
-        <label for="comentario"> comentario </label>
-        <textarea  cols="50" rows="10" id="comentario" placeholder="ingrese comentario" name="comentario"> este es un valor por defecto</textarea>
+        <label for="comentario">Comentario</label>
+        <textarea cols="50" rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">Este es un valor por defecto</textarea>
         <br>
-        <button type="button"><img src="img/toothless-dragon-toothless.gif"/> tipo boton </button>
-        <button type="reset"> tipo reset </button>
-        <button type="submit"> tipo submit </button>
+        <button type="button"><img src="img/toothless-dragon-toothless.gif" alt="Toothless"/> Tipo botón </button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
     </form>
     <h1>Mi primer heading</h1>
     <h2>Mi segundo heading</h2>
@@ -47,7 +47,7 @@
         <br>etiqueta span!</p>
     <!-- Este texto es un comentario y no va a
       aparecer en el explorador -->
-    <a target="_blank" href="https://www.google.com.mx"> Ir a google</a>
-    <img src="img/toothless-dragon-toothless.gif" height="400" width="400"/>
+    <a target="_blank" href="https://www.google.com.mx">Ir a Google</a>
+    <img src="img/toothless-dragon-toothless.gif" height="400" width="400" alt="Toothless"/>
 </body>
 </html>
